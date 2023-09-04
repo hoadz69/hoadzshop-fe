@@ -1,0 +1,32 @@
+export default {
+    "Search": {
+        "SearchPlaceHolder": "Tìm kiếm",
+        "AddButton": "Thêm mới",
+        "AddButtonShortKey": "Thêm mới (F9)",
+        "SubmitButton": "Chọn",
+        "SubmitButtonShortKey": "Chọn (Ctrl + S)",
+        "CancelButton": "Hủy",
+    },
+    Validate: {
+        "Duplicate": "{0} <{1}> đã tồn tại trong danh sách. Xin vui lòng kiểm tra lại.",
+        "EditVersion": "Dữ liệu đã bị thay đổi bởi người dùng khác. Xin vui lòng nạp lại.",
+        "DeleteMultiHasMultiArisened": "Có một số bản ghi xuất hiện lỗi trong quá trình xóa.", // Chi tiết xem phía dưới: [ {0} ]
+        "DeleteMultiHasMultiArisened2": "Có một số bản ghi đã có phát sinh. Không thể xóa!",
+        "ConfirmDeleteMultiHasMultiArisened": "Có một số bản ghi đã có phát sinh. Bạn có muốn tiếp tục xóa không!",
+        "DeleteMultiHasOneArisened": "Có một bản ghi đã có phát sinh. Không thể xóa!", //<{0}>
+        "DeleteMultiHasOneArisenedComponentAsset": "Linh kiện đã có phát sinh, bạn không thể xóa!", //<{0}>
+        "NotPermission": "Bạn không có quyền thực hiện chức năng này. Vui lòng kiểm tra lại!",
+        "ManagerUnitHasArise": "Đơn vị quản lý đã có phát sinh dữ liệu, bạn không thể bỏ check là đơn vị quản lý.",
+        "ParentUnitHasArise":"Đơn vị quản lý cấp cha của đơn vị này đã có phát sinh dữ liệu đã, bạn không thể đặt là đơn vị quản lý.",
+        "ManagerUnitHasDependent": "Đơn vị đã có phát sinh đơn vị con là đơn vị quản lý, bạn không thể bỏ check là đơn vị quản lý.",
+        "NewMessageDelete" : "{0} <{1}> đã có phát sinh. Bạn có muốn tiếp tục xóa không?",
+    },
+    Detail: {
+        SubmitError: 'Đã có lỗi xảy ra, vui lòng liên hệ với MISA để được hỗ trợ.',
+        AddDetail: "Thêm dòng"
+    },
+    Message: {
+        ConfirmDeleteTitle: "Xác nhận xóa",
+        ConfirmDelete: "Bạn có chắc chắn muốn xóa {0} không?"
+    }
+};
