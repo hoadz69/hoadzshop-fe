@@ -13,8 +13,12 @@
   },
   "dependencies": {
     "@intlify/unplugin-vue-i18n": "^0.12.2",
+    "@types/axios": "^0.14.0",
+    "@types/qs": "^6.9.8",
     "axios": "^1.5.1",
+    "crypto-js": "^4.1.1",
     "pinia": "^2.1.3",
+    "qs": "^6.11.2",
     "vue": "^3.3.4",
     "vue-i18n": "^9.3.0-beta.26",
     "vue-router": "^4.2.2"
@@ -22,6 +26,7 @@
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
     "@tsconfig/node18": "^2.0.1",
+    "@types/crypto-js": "^4.1.2",
     "@types/node": "^18.16.17",
     "@types/vue-i18n": "^7.0.0",
     "@vitejs/plugin-vue": "^4.2.3",
