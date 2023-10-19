@@ -3,7 +3,7 @@ import type { Ref } from 'vue'
 import type { AxiosInstance, AxiosRequestConfig } from 'axios'
 import { useBoolean, useLoading } from '@/hooks'
 
-import CustomAxiosInstance from './instance'
+import CustomAxiosInstance from './customAxios'
 import type { RequestParam } from './IReqiest'
 type RequestMethod = 'get' | 'post' | 'put' | 'delete'
 
